@@ -67,3 +67,36 @@ header .container p {
   background-color: var(--main-color);
   border-radius: 10px;
 }
+section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 90px);
+}
+input {
+  display: block;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-bottom: 40px;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  border-radius: 6px;
+}
+section .container .buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+button {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  border-radius: 10px;
+}

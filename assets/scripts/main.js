@@ -7,3 +7,12 @@ document.getElementById("switch").onclick = () => {
     document.getElementById("switch").src = "assets/images/sun.webp";
   }
 };
+let counter = 0;
+document.getElementById("btn").onclick = () => {
+  counter++;
+  document.getElementById("input").value = counter;
+};
+document.getElementById("remove").onclick = () => {
+  counter = 0;
+  document.getElementById("input").value = counter;
+};
